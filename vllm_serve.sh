@@ -2,17 +2,18 @@ CACHE_DIR="/opt/dlami/nvme/.cache"
 BASE_MODEL_PATH="/home/ubuntu/models"
 
 
-MODEL_PATH="CohereForAI/aya-expanse-32b"
-MODEL_NAME="aya-expanse-32b"
-
+#MODEL_PATH="CohereForAI/aya-expanse-32b"
+#MODEL_NAME="aya-expanse-32b"
+#MODEL_PATH="CohereForAI/aya-expanse-8b"
+#MODEL_NAME="aya-expanse-8b"
 #MODEL_PATH="$BASE_MODEL_PATH/krikri-annealing-sft-stage2"
 #MODEL_NAME="krikri-annealing-sft-stage2-run4"
 #MODEL_PATH="$BASE_MODEL_PATH/krikri-annealing-dpo-max-length-norm"
 #MODEL_NAME="krikri-annealing-sft-stage2-dpo_max-length-norm-run4"
 #MODEL_PATH="$BASE_MODEL_PATH/krikri-annealing-dpo-max-length-norm-dpo-fixes"
 #MODEL_NAME="krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy"
-#MODEL_PATH="$BASE_MODEL_PATH/krikri-annealing-dpo-max-length-norm-dpo-fixes/checkpoint-1560"
-#MODEL_NAME="krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy-checkpoint-1560"
+MODEL_PATH="$BASE_MODEL_PATH/krikri-annealing-dpo-max-length-norm-dpo-fixes-checkpoint-1560"
+MODEL_NAME="krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy-checkpoint-1560"
 
 NUM_GPUS=4
 MAX_MODEL_LEN=8192
