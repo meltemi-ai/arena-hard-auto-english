@@ -22,9 +22,11 @@ prompt_template: ["<|User Prompt|>\n{question_1}\n\n<|The Start of Assistant A's
 
 # Add your model below for evaluation
 model_list:
+  - krikri-annealing-sft-stage2-dpo_max-length-norm-dpo-fixes_off_policy-length-norm
   - krikri-annealing-sft-stage2-dpo_max-length-norm-run4
   - krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy
   - krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy-checkpoint-1560
   - krikri-annealing-sft-stage2-run4
   - aya-expanse-32b
-  - aya-expanse-8b
+  - krikri-annealing-sft-stage2-dpo_max-length-norm-dpo-fixes-length-norm
+  # - aya-expanse-8b

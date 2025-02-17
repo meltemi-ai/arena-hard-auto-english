@@ -8,9 +8,12 @@ num_choices: 1
 
 # a list of model to generate answers
 model_list:
-  - aya-expanse-32b
-  # - krikri-annealing-sft-stage2-dpo_max-length-norm-run4
-  # - krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy
-  # - krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy-checkpoint-1560
-  # - krikri-annealing-sft-stage2-run4
-  # - aya-expanse-8b
+  - krikri-annealing-sft-stage2-dpo_max-length-norm-dpo-fixes_off_policy-length-norm
+  # - krikri-annealing-sft-stage2-dpo_max-length-norm-dpo-fixes-length-norm # DONE 
+  # - krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy-checkpoint-1560 # DONE
+
+#  - aya-expanse-8b # DONE
+#  - aya-expanse-32b # DONE
+#  - krikri-annealing-sft-stage2-run4 # DONE
+#  - krikri-annealing-sft-stage2-dpo_max-length-norm-run4 # DONE
+#  - krikri-annealing-sft-stage2-dpo_max-length-norm-fixes_on_policy # DONE
