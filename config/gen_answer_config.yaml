@@ -8,9 +8,9 @@ num_choices: 1
 
 # a list of model to generate answers
 model_list:
-  - krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-3-with-IF-final-checkpoint
-  # - krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-3-with-IF-checkpoint-2316
-  
+#  - krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-3-with-IF-final-checkpoint
+  - krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-3-with-IF-checkpoint-2316
+
 #  - krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-2 # DONE
 #  - krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-1-low-lr # DONE
 #  - krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.4-dpo_min_0.3dpo_max-length-norm-fixes_on_policy-checkpoint-1560_0.3-dare_tie # DONE
