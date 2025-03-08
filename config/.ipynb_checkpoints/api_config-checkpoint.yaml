@@ -97,7 +97,7 @@ krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-2:
         - api_base: http://localhost:8000/v1
           api_key: token-abc123
     api_type: openai
-    parallel: 24
+    parallel: 50
 
 krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-1-low-lr:
     model_name: krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-1-low-lr
@@ -105,7 +105,7 @@ krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-1-low-lr:
         - api_base: http://localhost:8000/v1
           api_key: token-abc123
     api_type: openai
-    parallel: 24
+    parallel: 50
 
 krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.4-dpo_min_0.3dpo_max-length-norm-fixes_on_policy-checkpoint-1560_0.3-dare_tie:
     model_name: krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.4-dpo_min_0.3dpo_max-length-norm-fixes_on_policy-checkpoint-1560_0.3-dare_tie
@@ -113,7 +113,7 @@ krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.4-
         - api_base: http://localhost:8000/v1
           api_key: token-abc123
     api_type: openai
-    parallel: 24
+    parallel: 50
 
 krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.45-dpo_min_0.55-dare_tie:
     model_name: krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.45-dpo_min_0.55-dare_tie
@@ -121,7 +121,7 @@ krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.45
         - api_base: http://localhost:8000/v1
           api_key: token-abc123
     api_type: openai
-    parallel: 24
+    parallel: 50
 
 krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.55-dpo_min_0.45-dare_tie:
     model_name: krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.55-dpo_min_0.45-dare_tie
@@ -129,4 +129,20 @@ krikri-annealing-sft-stage2-merge-dpo-max-length-norm-dpo-fixes-length-norm_0.55
         - api_base: http://localhost:8000/v1
           api_key: token-abc123
     api_type: openai
-    parallel: 24
+    parallel: 50
+    
+krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-3-with-IF-checkpoint-2316:
+    model_name: krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-3-with-IF-checkpoint-2316
+    endpoints:
+        - api_base: http://localhost:8000/v1
+          api_key: token-abc123
+    api_type: openai
+    parallel: 50
+    
+krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-3-with-IF-final-checkpoint:
+    model_name: krikri-annealing-dpo-max-length-norm-dpo-fixes-length-norm-round-3-with-IF-final-checkpoint
+    endpoints:
+        - api_base: http://localhost:8000/v1
+          api_key: token-abc123
+    api_type: openai
+    parallel: 50
